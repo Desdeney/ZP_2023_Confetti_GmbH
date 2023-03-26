@@ -1,0 +1,40 @@
+.bg-black-100{
+    background-color: #242424;
+}
+
+nav{
+    background-color: #242424;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+li{
+    display: inline-block;
+    margin-top: 16px;
+    padding: 24px 16px;
+}
+
+.logo{
+    padding: 24px 24px;
+    background-color: white;
+}
+
+.hero{
+    background-image: url("../assets/img/HeroImage.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
