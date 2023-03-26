@@ -61,10 +61,10 @@ ul{
 li{
     display: inline-block;
     margin-top: 24px;
-    padding: 8px 16px;
+    padding: 8px 8px;
     position: relative;
     font-size: 18px;
-    left: 400px;
+    left: 525px;
 }
 
 .logo{
