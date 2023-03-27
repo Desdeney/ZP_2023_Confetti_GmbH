@@ -60,6 +60,17 @@ p {
     left: 50px;
 }
 
+.card-paragraph{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 16px;
+    background-color: white;
+    color: white;
+    background-color: #2D2D2D;
+    border-radius: 0 0 8px 8px;
+    width: 154px;
+}
+
 /* spacers */
 
 .spacer-top-0 {
@@ -85,6 +96,10 @@ p {
 
 .spacer-p-top-5{
     padding-top: 209px;
+}
+
+.padbot-2{
+    padding-bottom: 48px;
 }
 
 /* general styling */
@@ -168,4 +183,13 @@ li {
     z-index: -1;
     position: relative;
     top: -154px;
+}
+
+.card-image{
+    width: 154px;
+    height: auto;
+}
+
+.card-element{
+    height: 120px;
 }
