@@ -4,6 +4,7 @@
 body{
     color: white;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .bg-black-100{
@@ -33,6 +34,14 @@ p{
     font-weight: normal;
 }
 
+.divider-icon{
+    font-size: 64px;
+    color: #C90930;
+    position: relative;
+    top: -25px;
+    left: 50px;
+}
+
 /* spacers */
 
 .spacer-top-0{
@@ -52,7 +61,7 @@ p{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    padding: 8px;
+    padding: 8px 16px;
     border: none;
 }
 
@@ -73,6 +82,7 @@ a:hover{
 
 ul{
     list-style-type: none;
+    padding-right: 32px;
 
 }
 
@@ -80,9 +90,7 @@ li{
     display: inline-block;
     margin-top: 24px;
     padding: 8px 8px;
-    position: relative;
     font-size: 18px;
-    left: 525px;
 }
 
 .logo{
@@ -107,4 +115,9 @@ li{
 .line{
     height: 2px;
     background-color: white;
+}
+
+.divider{
+    position: relative;
+    top: -15px;
 }
