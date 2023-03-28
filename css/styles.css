@@ -71,6 +71,12 @@ p {
     width: 154px;
 }
 
+.subtext{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-weight: bold;
+}
 /* spacers */
 
 .spacer-top-0 {
@@ -92,6 +98,10 @@ p {
 }
 .spacer-top-5 {
     margin-top: 102px;
+}
+
+.spacer-p-top-3{
+    padding-top: 80px;
 }
 
 .spacer-p-top-5{
@@ -133,6 +143,7 @@ nav {
 a {
     color: white;
     text-decoration: none;
+    /* z-index: 5; */
 }
 
 a:hover {
@@ -194,4 +205,17 @@ li {
 
 .card-element{
     height: 120px;
+}
+
+.btn-send{
+    padding: 16px;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
 }
