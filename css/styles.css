@@ -5,6 +5,7 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .bg-black-100 {
@@ -60,6 +61,11 @@ p {
     left: 50px;
 }
 
+.first-div{
+    position: relative;
+    top: -48px;
+}
+
 .card-paragraph{
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +75,15 @@ p {
     background-color: #2D2D2D;
     border-radius: 0 0 8px 8px;
     width: 154px;
+}
+. card-small{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.card{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 135px;
 }
 
 .subtext{
@@ -202,11 +217,7 @@ li {
     position: relative;
 }
 
-.section-cards{
-    z-index: -1;
-    position: relative;
-    top: -154px;
-}
+
 
 .card-image{
     width: 154px;
@@ -221,11 +232,22 @@ li {
     padding: 16px;
     font-size: 24px;
     margin-top: 32px;
-    margin-bottom: 80px;
+}
+
+.card-divider{
+    width: 65%;
 }
 
 input{
     padding: 8px;
     border: none;
     border-radius: 4px;
+}
+
+@media screen and (min-width: 1201px) {
+    .img-angled{
+        position: relative;
+        top: -270px;
+        left: 800px;
+    }
 }
