@@ -12,6 +12,7 @@ body {
     background-color: #242424;
 }
 
+
 .bg-black-200 {
     background-color: #2D2D2D;
 }
@@ -211,7 +212,9 @@ li {
     position: relative;
 }
 
-
+.disable-underlining:hover{
+    text-decoration: none;
+}
 
 .card-image{
     width: 154px;
